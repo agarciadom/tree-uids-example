@@ -1,0 +1,8 @@
+@namespace(uri="TreeWithUUIDs", prefix="t")
+package Trees;
+
+class Tree {
+   val Tree[*]#parent children;
+   ref Tree#children parent;
+   attr String label;
+}
